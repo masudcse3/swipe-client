@@ -119,25 +119,21 @@ form textarea {
 /* main section starts */
 
 .plan-section {
-  margin: 0 105.22px;
+  margin: 137.63px 105.22px 110.37px 105.22px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .plan-container,
 .desire-container {
   width: 702px;
-  height: auto;
   border-radius: 10px;
 }
 
 .plan-container {
   padding: 0 31.67px 0 31.5px;
   border: 2px solid #dbdbdb;
-}
-
-.desire-container {
-  border: 2px solid #ff823e;
-  height: 1120.45px;
-  margin-top: 0 !important;
+  height: auto;
 }
 
 .plan-container > h3 {
@@ -189,7 +185,7 @@ legend {
 .purchases-field button {
   width: 56.12px;
   height: 57px;
-  background: #d61414;
+  font-size: 20px;
   color: white;
   margin-top: 15px;
   border-radius: 5px;
@@ -224,8 +220,62 @@ legend {
 }
 
 .arrow {
-  font-size: 64px;
-  color: rgba(35, 88, 123, 1);
+  padding: 150px 0;
+}
+
+.desire-container {
+  border: 2px solid #ff823e;
+  height: 1220px;
+}
+
+.desire-container h3 {
+  padding: 35.06px 0 30.49px 31.5px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.desire-container p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(0, 0, 0, 0.7);
+  padding: 0 0 17.05px 32.59px;
+}
+
+.desire-input-container {
+  padding: 0 33.23px 15px 32.56px;
+}
+
+.desire-pusches-btn {
+  width: 636.07px;
+  margin: 0 auto;
+}
+
+.desire-img {
+  padding: 38.25px 31.24px 34.85px 31.76px;
+}
+
+.steps-section {
+  width: 1920px;
+  height: 430.91px;
+  left: 0px;
+  top: 2336.82px;
+  background: #dddddd;
+}
+
+.steps-section h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  padding: 69.58px 0 65.74px 0;
+}
+
+.steps-container {
+  width: 1563.5px;
+  height: 181px;
+  margin: 0 auto;
 }
 
 /* main section ends */
@@ -245,6 +295,7 @@ legend {
 }
 
 .input {
+  height: 57px;
   background: rgba(225, 225, 225, 0.778);
   border-radius: 5px;
   transform: rotate(-0.06deg);
@@ -261,4 +312,20 @@ legend {
 .btn {
   background: #23587b;
   border-radius: 5px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.margin-0 {
+  margin: 0 !important;
+}
+
+.bg-red {
+  background: #d61414;
+}
+
+.bg-green {
+  background: #18d614;
 }
