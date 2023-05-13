@@ -1,0 +1,185 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Swipe</title>
+  </head>
+  <body>
+    <!-- header starts -->
+    <header>
+      <!-- navbar -->
+      <nav class="flex">
+        <div>
+          <img src="./asets/images/brandName.png" alt="brandName" />
+        </div>
+        <div class="flex nav-items">
+          <a href="#">Home</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact Us</a>
+        </div>
+      </nav>
+      <!-- banner -->
+      <section class="banner-section flex">
+        <!-- banner info -->
+        <div class="banner-info-container">
+          <h1 class="banner-title">
+            Time to turn your overspending into prosperity
+          </h1>
+          <p class="secondary-color font-18">
+            Register to use the tool for Free
+          </p>
+
+          <!-- form -->
+          <form>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              class="input"
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              class="input"
+            />
+            <input
+              type="text"
+              name="phone"
+              id="phone"
+              placeholder="Phone"
+              class="input"
+            />
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              class="input"
+              placeholder="What are your top 5 financial goals?"
+            ></textarea>
+            <div class="flex submit-container">
+              <input class="submit btn font-18" type="submit" value="Log in" />
+              <p class="secondary-color font-18">
+                Login if you already registered
+              </p>
+            </div>
+          </form>
+        </div>
+        <!-- banner image -->
+        <div class="banner-img-container flex">
+          <div class="bg-shadow"></div>
+          <div class="banner-img">
+            <img src="./asets/images/banner.png" alt="banner" />
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- header ends -->
+    <!-- main section starts -->
+    <main>
+      <section class="plan-section flex">
+        <div class="plan-container">
+          <h3 class="primary-color flex">
+            Today’s Planned Spending
+            <p>09/05/2023</p>
+          </h3>
+          <fieldset>
+            <legend>Groceries</legend>
+            <input type="text" class="input" placeholder="$Price" />
+            <input type="text" class="input" placeholder="Eating Out" />
+            <input type="text" class="input" placeholder="Entertainment" />
+            <input type="text" class="input" placeholder="Transportation" />
+          </fieldset>
+          <div class="purchases-container">
+            <h2 class="secondary-color font-18">Online Purchases:</h2>
+            <div class="flex purchases-field">
+              <input
+                type="text"
+                class="input"
+                placeholder="Type in what you plan to buy"
+              />
+              <button class="">X</button>
+            </div>
+            <div class="flex purchases-field">
+              <input
+                type="text"
+                class="input"
+                placeholder="Type in what you plan to buy"
+              />
+              <button class="">X</button>
+            </div>
+            <div class="flex purchases-field">
+              <input
+                type="text"
+                class="input"
+                placeholder="Type in what you plan to buy"
+              />
+              <button class="">X</button>
+            </div>
+            <div>
+              <button class="purchases-btn submit btn font-18">
+                Add more online purchases
+              </button>
+            </div>
+          </div>
+
+          <div class="purchases-container">
+            <h2 class="secondary-color font-18">Other Purchases:</h2>
+            <div class="flex purchases-field">
+              <input
+                type="text"
+                class="input"
+                placeholder="Type in what you plan to buy"
+              />
+              <button class="">X</button>
+            </div>
+            <div class="flex purchases-field">
+              <input
+                type="text"
+                class="input"
+                placeholder="Type in what you plan to buy"
+              />
+              <button class="">X</button>
+            </div>
+            <div class="flex purchases-field">
+              <input
+                type="text"
+                class="input"
+                placeholder="Type in what you plan to buy"
+              />
+              <button class="">X</button>
+            </div>
+            <div>
+              <button class="purchases-btn submit btn font-18">
+                Add more purchases
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="middle-section">
+          <p>
+            If something is not part of your planned list for today then put it
+            on a desired list for tomorrow
+          </p>
+          <div class="arrow">&#129066;</div>
+          <p>
+            If tomorrow you still want it and it has value then buy it otherwise
+            remove it from the list
+          </p>
+        </div>
+
+        <div class="desire-container"></div>
+      </section>
+    </main>
+    <!-- main sections ends -->
+  </body>
+</html>
