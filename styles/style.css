@@ -36,6 +36,9 @@ nav {
   color: #ff823e;
   transition: all 0.2s;
 }
+.nav-items .active {
+  color: #ff823e;
+}
 
 .banner-section {
   margin: 94.9px 61.56px 138px 104.21px;
@@ -73,10 +76,22 @@ form {
   width: 638.97px;
   height: 388.24px;
 }
-
+input:focus::placeholder,
+textarea:focus::placeholder {
+  transform: translateY(-20px);
+  color: #ff823e;
+  transition: 0.5s;
+}
 form > input {
   width: 638.77px;
   height: 57px;
+}
+.box span {
+  position: relative;
+  float: right;
+  top: -40px;
+  right: 20px;
+  color: #4d4d4d;
 }
 
 form textarea {
@@ -180,8 +195,22 @@ legend {
   width: 100%;
   gap: 11.97px;
   align-items: center;
+  position: relative;
 }
-
+.purchases-field span {
+  position: absolute;
+  top: 32px;
+  float: right;
+  right: 80px;
+  color: #4d4d4d;
+}
+.sign span {
+  position: absolute;
+  top: 18px;
+  float: right;
+  right: 170px;
+  color: #4d4d4d;
+}
 .purchases-field button {
   width: 56.12px;
   height: 57px;
@@ -494,7 +523,6 @@ footer {
 }
 
 .input {
-  height: 57px;
   background: rgba(225, 225, 225, 0.344);
   border-radius: 5px;
   transform: rotate(-0.06deg);
